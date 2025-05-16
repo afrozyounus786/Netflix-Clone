@@ -1,0 +1,77 @@
+.login {
+    font-style:normal;
+    position: relative;
+    height: 100%;
+    background: url("https://i.pinimg.com/736x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg") center no-repeat;
+    background-size: cover;
+}
+.login-logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.login-btn {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+
+}
+.login-gradient {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0,0, 0.4);
+}
+.login-body {
+    padding: 100px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+.login-body h1 {
+    margin-left:auto;
+    font-size: 3.125rem;
+    margin-bottom: 40px;
+}
+.login-body h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.login-input form input {
+    font-size: 13px;
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.login-btn2 {
+    cursor: pointer;
+    padding: 7px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+}
+h3 {
+    margin-bottom: 20px;
+}
